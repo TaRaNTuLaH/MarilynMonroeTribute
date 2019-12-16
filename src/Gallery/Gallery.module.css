@@ -1,0 +1,30 @@
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.gallery img {
+    margin: 40px 0;
+    width: 85%;
+}
+
+@media(min-width: 768px) {
+
+    .gallery {
+        justify-content: space-between;
+    }
+
+    .gallery img {
+
+        width: 40%;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .gallery img {
+        width: 30%;
+    }
+}

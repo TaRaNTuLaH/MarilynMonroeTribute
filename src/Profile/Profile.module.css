@@ -1,0 +1,18 @@
+svg {
+    fill: black;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+}
+
+.quote {
+    border-left: 5px solid #7ad6bb;
+    margin: 40px 0 40px 40px;
+}
+
+.quote p {
+    color: rgba(0, 0, 0, 0.3);
+    margin-left: 20px;
+}

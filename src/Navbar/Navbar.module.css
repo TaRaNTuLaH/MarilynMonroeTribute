@@ -4,6 +4,10 @@
     background-color: #7ad6bb;
 }
 
+.icons {
+    display: flex;
+}
+
 .icons svg{
     fill: #fff;
     height: 30px;
@@ -28,4 +32,9 @@
     align-items: center;
     justify-content: space-between;
     height: 50px;
+}
+
+.currentPage {
+    border: 1px solid white;
+    border-radius: 50%;
 }
