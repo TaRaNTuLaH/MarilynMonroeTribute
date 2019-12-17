@@ -23,7 +23,7 @@ const Gallery = () => {
 
     return (
         <div className={styles.gallery}>
-            {pictures.map(picture => <img src={picture} alt="Marilyn Monroe" />)}
+            {pictures.map(picture => <img src={picture} key={picture} alt="Marilyn Monroe" />)}
         </div>
     );
 };
